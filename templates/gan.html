@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+  <head>
+    <title>Hello {{ name }}</title>
+  </head>
+  <body>
+    <h1>Your generated image for {{ name }} is:</h1>
+    <img src="{{url_for('static', filename=filename1)}}" alt="alternate text" width=300px height=300px style="padding-bottom:0.5em;" />
+    <img src="{{url_for('static', filename=filename2)}}" alt="alternate text" width=300px height=300px style="padding-bottom:0.5em;" />
+  </body>
+</html>

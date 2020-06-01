@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <title>CGAN</title>
+  </head>
+  <body>
+    <h1>FACE SKETCH TO REAL IMAGE</h1>
+    <form
+      action="{{url_for('predict')}}"
+      method="post"
+      ,
+      enctype="multipart/form-data"
+    >
+      <label for="myfile">Select your sketch:</label>
+      <input
+        type="file"
+        id="myfile"
+        name="input_img"
+        accept="image/jpg, image/jpeg, image/png"
+      />
+      <input type="text" name="name" placeholder="Enter your sketch name" />
+      <button>Feed to model</button>
+    </form>
+  </body>
+</html>
