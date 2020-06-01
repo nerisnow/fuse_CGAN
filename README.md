@@ -1,8 +1,8 @@
 # Human Face Sketch to Real Image Translation using Conditional Generative Adversarial Networks
-The Pix2pix CGAN model proposed in the paper (https://arxiv.org/abs/1611.07004) [Image-to-Image Translation with Conditional Adversarial Networks] by Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros has been implemented in this project.
+The Pix2pix CGAN model proposed in the paper [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004)  by Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros has been implemented in this project.
 The Discriminator uses PatchGAN and the Generator uses a U-Net architecture.
 
-The dataset used is the [CUHK-Face Dataset] (mmlab.ie.cuhk.edu.hk/archive/cufsf/) consisting of 188 face-sketch pairs.
+The dataset used is the [CUHK-Face Dataset](mmlab.ie.cuhk.edu.hk/archive/cufsf/) consisting of 188 face-sketch pairs.
 
 The zip files with data ready to be fed for preprocessing can be found in **asianstrain_256.npz** for training data and **asianstest_256.npz** for test data.
 
