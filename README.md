@@ -13,10 +13,9 @@ Similarly the same model can be used to generate custom results for custom input
 
 After cloning the repository, a simple flask app to test the model on custom input can be initialized by `flask run` inside the current repo from the terminal.
 
-*Training result after 300 epochs:
-![Training result after 300 epochs](https://github.com/nerisnow/fuse_CGAN/blob/master/trial_results/plot_045600.png)
+*Training result after 300 epochs: ![Training result after 300 epochs](https://github.com/nerisnow/fuse_CGAN/blob/master/trial_results/plot_045600.png)
 
-*Generated sample for test set:
-![Generated sample for test set](https://github.com/nerisnow/fuse_CGAN/blob/master/test_results_2/test_plot_000050.png)
+*Generated sample for test set:![Generated sample for test set](https://github.com/nerisnow/fuse_CGAN/blob/master/test_results_2/test_plot_000050.png)
+
 
 
